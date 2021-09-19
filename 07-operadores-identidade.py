@@ -1,7 +1,7 @@
-#Operadores de identidade (deaonstração)
+#Operadores de identidade (demonstração)
 x = 3	
 y = -10.5 
-z = 15*23j #23j é	número complexo
+z = 15*23j #23j é um número complexo
 pais = "Brasil"	
 
 print("x =", x, "y =", y)
