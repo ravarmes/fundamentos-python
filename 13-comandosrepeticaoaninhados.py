@@ -1,4 +1,4 @@
-#Demonstração do Laços Whiles Encaixados
+#Demonstração do Laços Whiles Aninhados
 
 linha = 1
 coluna = 1

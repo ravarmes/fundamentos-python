@@ -1,4 +1,4 @@
-#Comandos de Decisão Encaixados
+#Comandos de Decisão Aninhados
 #Classificação de Triângulos
 
 x = float(input("Digite o valor de x: "))
