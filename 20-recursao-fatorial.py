@@ -5,5 +5,5 @@ def fat(n):
         return n*fat(n-1)
 
 
-resultado = fat(40)
+resultado = fat(3)
 print("Fatorial: ", resultado)
