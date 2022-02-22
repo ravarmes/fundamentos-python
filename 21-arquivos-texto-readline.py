@@ -1,4 +1,4 @@
-file = open('teste.txt', 'r')
+file = open('21-arquivos-texto-dados.txt', 'r')
 print('Lendo linha por linha do arquivo txt:')
 print(file.readline(), end='')
 print(file.readline(), end='')

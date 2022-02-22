@@ -1,18 +1,19 @@
 import json
 
-dic1 = {
-    'Pessoa 1':{
-        'nome': 'Alberto',
-        'idade': 10
-    },
-    'Pessoa 2':{
-        'nome': 'Bernardo',
-        'idade': 20
-    }
-}
+# Formando uma lista de dicionários de pessoas
+dados = [
+            {
+                'nome': 'Alberto',
+                'idade': 10
+            },
+            {
+                'nome': 'Bernardo',
+                'idade': 20
+            }
+        ]
 
-dic1_json = json.dumps(dic1, indent=True)
-print(dic1_json)
+# Abrindo um arquivo JSON para escrita (apagando o conteúdo antigo)
+json_file = open('21-arquivos-json-dados.json', 'w')
 
-file = open('teste.json', 'w+')
-file.write(dic1_json)
+# Escrevendo o conteúdo da variável 'dados' no arquivo json_file
+json.dump(dados, json_file, indent=True)

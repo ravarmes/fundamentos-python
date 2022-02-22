@@ -1,2 +1,2 @@
 import os
-os.remove('teste.txt')
+os.remove('21-arquivos-texto-dados.txt')

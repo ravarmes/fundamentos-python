@@ -1,10 +1,7 @@
 import json
 
-file = open('teste.json', 'r')
-dic1_json = file.read()
-dic1_json = json.loads(dic1_json)
+json_file = open("21-arquivos-json-dados.json", 'r')
+dados = json.load(json_file)
 
-print(dic1_json)
-
-for chave, valor in dic1_json.items():
-    print(chave, ' = ', valor)
+print(dados) 
+# [{'nome': 'José', 'idade': 25}, {'nome': 'Maria', 'idade': 19}]
