@@ -1,6 +1,6 @@
 import json
 
-json_file = open("21-arquivos-json-dados.json", 'r', encoding='utf-8')
+json_file = open("22-arquivos-json-dados.json", 'r', encoding='utf-8')
 dados = json.load(json_file)
 
 
@@ -9,3 +9,4 @@ for i in dados:
 
     # imprimindo nome e idade formatados
     print(i['nome'], 'tem', i['idade'], 'anos.')
+

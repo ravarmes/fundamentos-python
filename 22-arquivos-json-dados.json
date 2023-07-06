@@ -1,10 +1,10 @@
-{
- "Pessoa 1": {
-  "nome": "Alberto",
+[
+ {
+  "nome": "Jonas",
   "idade": 10
  },
- "Pessoa 2": {
+ {
   "nome": "Bernardo",
   "idade": 20
  }
-}
+]
